@@ -26,7 +26,7 @@ class SignUp extends Component {
     
     onSubmit = (e)=>{
         e.preventDefault();
-        fetch('http://localhost:3000/signup', {
+        fetch('https://calm-beach-72428.herokuapp.com/signup', {
             method: 'post',
             headers:{
                 "Content-Type": 'application/json',
